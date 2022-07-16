@@ -1,6 +1,6 @@
 package com.cg.datatypes;
 
-public class Program_Int_1 
+public class Program_Integer_1 
 {
 
 	public static void main(String[] args) 

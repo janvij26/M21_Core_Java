@@ -2,7 +2,7 @@ package com.cg.datatypes;
 
 import java.util.Scanner;
 
-public class Program_Int_2 
+public class Program_Integer_2 
 {
 
 	public static void main(String[] args) 
