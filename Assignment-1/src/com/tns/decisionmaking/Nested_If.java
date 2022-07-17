@@ -1,10 +1,23 @@
 package com.tns.decisionmaking;
 
-public class Example3 {
+import java.util.Scanner;
+
+public class Nested_If {
 
 	public static void main(String[] args)
 	{
-		int age=15, weight=130;
+		//int age=15, weight=130;
+		
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter the Age of Person : ");
+		int age=s.nextInt();
+		
+		System.out.println("Enter the Weight of Person : ");
+		int weight=s.nextInt();
+		
+		s.close();
+		
 		if(age>=12)
 		{
 			if(weight>=40)

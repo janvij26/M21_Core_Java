@@ -4,13 +4,13 @@ public class DoWhileLoop {
 
 	public static void main(String[] args) 
 	{
-		 int i=1;    
+		 int x=1;    
 		    do
 		    {    
-		        System.out.println(i);    
-		        i++;    
+		        System.out.println("The Value of X: "+x);    
+		        x++;    
 		    }
-		    while(i<=10);    
+		    while(x<=5);    
 
 	}
 
