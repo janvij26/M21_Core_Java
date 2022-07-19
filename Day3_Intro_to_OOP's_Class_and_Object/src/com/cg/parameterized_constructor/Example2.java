@@ -2,7 +2,7 @@ package com.cg.parameterized_constructor;
 
 class B 
 {	
-		public int x;
+		//public int x;
 		// Parameterized Constructor
 		B(int a)
 		{
@@ -14,7 +14,7 @@ public class Example2 {
 
 	public static void main(String[] args) 
 	{
-		B obj=new B(20);
+		B b=new B(15);
 
 	}
 
