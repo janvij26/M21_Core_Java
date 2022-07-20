@@ -1,5 +1,7 @@
 package com.tns.polymorphism;
 
+// Program of Compile-Time Polymorphism 
+
 class A
 {
 	// By having the Different Types of Arguments
