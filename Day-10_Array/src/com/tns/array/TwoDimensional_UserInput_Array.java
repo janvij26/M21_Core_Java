@@ -22,9 +22,7 @@ public class TwoDimensional_UserInput_Array {
 				System.out.print("Enter "+i+" "+j+" value:" );
 				arr[i][j]=s.nextInt();
 			}
-		}
-		
-		
+		}	
 		
 		//To enter the element in the array
 		for(int i=0;i<arr.length;i++)
@@ -33,12 +31,8 @@ public class TwoDimensional_UserInput_Array {
 			{
 				System.out.print(arr[i][j]+" ");
 			}
-		}
-		
-		
+		}	
 		
 		s.close();
-
 	}
-
 }
