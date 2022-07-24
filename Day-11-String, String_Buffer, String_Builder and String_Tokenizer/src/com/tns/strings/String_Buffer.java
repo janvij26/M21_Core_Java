@@ -33,11 +33,34 @@ public class String_Buffer {
 		
 		//System.out.println(s2.capacity());
 		
+		//
 		StringBuffer buff = new StringBuffer("Internet of things");
 		System.out.println(buff.capacity());
+		
+		//
 		buff = new StringBuffer(" ");
 		System.out.println(buff.capacity());
 		
+		//
+		StringBuffer sb1 = new StringBuffer("Good ");
+		sb1.append("Job");
+		System.out.println(sb1);
+		
+		//
+		StringBuffer sb2 = new StringBuffer("Jeva");
+		System.out.println(sb2);
+		System.out.println(sb2.charAt(1));
+		sb2.setCharAt(1, 'a');
+		System.out.println(sb2);
+		System.out.println(sb2.charAt(1));
+		
+		//
+		/*
+		StringBuffer sb3 = new StringBuffer("Try");
+		System.out.println(sb3);
+		sb3.setCharAt(3,'x');
+		System.out.println(sb3);
+		*/
 
 	}
 
