@@ -18,11 +18,13 @@ public class UnaryOperator {
 		int b=s.nextInt();
 		
 		int x=a++;
+		@SuppressWarnings("unused")
 		int y=++b;
 		int z=a+x;
 		System.out.println(z);
 		
 		int m=a--;
+		@SuppressWarnings("unused")
 		int n=--b;
 		int o=a-m;
 		

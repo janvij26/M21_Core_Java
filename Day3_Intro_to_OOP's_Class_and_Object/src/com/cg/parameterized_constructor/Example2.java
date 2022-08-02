@@ -14,6 +14,7 @@ public class Example2 {
 
 	public static void main(String[] args) 
 	{
+		@SuppressWarnings("unused")
 		B b=new B(15);
 
 	}
