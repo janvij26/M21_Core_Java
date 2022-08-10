@@ -1,4 +1,4 @@
-package com.tns.db_crud;
+package com.tns.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
