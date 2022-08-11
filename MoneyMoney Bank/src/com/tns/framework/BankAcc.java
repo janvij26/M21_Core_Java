@@ -57,7 +57,7 @@ public abstract class BankAcc
 	// 1. Abstract Method withdraw
 	abstract public void withdraw(float AccBal);
 	
-	// 2. Items Method
+	// 2. deposite Method
 	public void deposite(float AccBal)
 	{
 		System.out.println(AccBal);

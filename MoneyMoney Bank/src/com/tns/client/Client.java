@@ -16,14 +16,14 @@ public class Client {
 		SavingAcc s=new MMSavingAcc(122921, "Janvi" , 30000, true);
 		CurrentAcc c=new MMCurrentAcc(122321, "Sid", 150000, 60);
 		
-		// For Prime Account Output
+		// For Saving Account Output
 		System.out.println("Saving Account: ");	
 		s.withdraw(s.getAccBal());
 		System.out.println(s);
 		
 		System.out.println();
 		
-		// For Normal Account Output
+		// For Current Account Output
 		System.out.println("Current Account: ");
 		c.withdraw(c.getAccBal());
 		System.out.println(c);
