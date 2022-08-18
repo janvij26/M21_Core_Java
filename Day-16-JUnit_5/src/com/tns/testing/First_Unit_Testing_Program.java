@@ -1,10 +1,9 @@
 package com.tns.testing;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class First_Unit_Testing_Program 
+public class First_Unit_Testing_Program  
 {
-	
 	@Test
 	void accept()
 	{
@@ -17,5 +16,7 @@ public class First_Unit_Testing_Program
 		int x=5;
 		System.out.println(x);
 	}
+	
+	
 
 }

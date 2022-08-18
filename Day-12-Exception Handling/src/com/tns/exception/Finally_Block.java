@@ -15,8 +15,7 @@ public class Finally_Block {
 		{
 			int res=15/x;
 			System.out.println(res);
-		}
-		catch(Exception e)
+		}catch(Exception e)
 		{
 			System.out.println("Exception Handled");
 		}

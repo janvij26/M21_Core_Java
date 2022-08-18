@@ -16,7 +16,7 @@ public class DB_Crud_Delete {
 		{
 			// To check whether the eclipse is connected with MYSQL or not
 			Connection c=DriverManager.getConnection(db_URL, db_User_Name, db_Password);
-			String query="DELETE FROM EMPLOYEE WHERE ID=?";
+			String query="DELETE FROM STUDENT_JDBC WHERE ID=?";
 			PreparedStatement p=c.prepareStatement(query);
 			p.setInt(1, 101);
 		

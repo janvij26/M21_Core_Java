@@ -17,7 +17,7 @@ public class DB_Crud_Select_Retrieve {
 		{
 			// To check whether the eclipse is connected with MYSQL or not
 			Connection c=DriverManager.getConnection(db_URL, db_User_Name, db_Password);
-			String query="SELECT * FROM EMPLOYEE";
+			String query="SELECT * FROM STUDENT_JDBC";
 			Statement s=c.createStatement();
 			ResultSet r=s.executeQuery(query);
 			//int count=0;
